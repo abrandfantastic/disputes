@@ -1,0 +1,505 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Dispute Lawyers</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Areas Of Expertise</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            </li>
+	    <li class="nav-item mx-0 mx-lg-1">
+	      <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#faq">FAQ</a>
+            </li>		
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
+        <h1 class="text-uppercase mb-0">Dispute Resolution</h1>
+        <hr class="star-light">
+        <h2 class="font-weight-light mb-0">Acting for the rights of those who want to protect themselves in face of Legal Disputes.</h2>
+      </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Areas Of Dispute Expertise</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="/static/disputes/img/portfolio/land.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="/static/disputes/img/portfolio/inheritance.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="/static/disputes/img/portfolio/building.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="/static/disputes/img/portfolio/debt.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="/static/disputes/img/portfolio/negligence.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="/static/disputes/img/portfolio/landlord.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">About</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">We specialise in contentious matters, pursuing or defending a wide range of domestic commercial claims with a particular specialism in cross-border High Court matters involving other European jurisdictions. Such matters include complex contract disputes, distribution and agency agreements, partnership and shareholder disputes, negligence, breaches of fiduciary duty, matters involving allegations of conspiracy to defraud, misconduct, deceit, which may include issuing or defending applications for freezing injunctions, acting in committal proceedings, issuing or defending claims or enforcement proceedings in foreign courts.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">On the advisory side, We help protect my clients by assisting with contractual matters, asset management and preservation.
+
+We are active members in a number of law firm alliances around the world and enjoy providing an education at seminars and events.</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+   <!-- FAQ Section -->
+    <section class="bg-secondary text-white mb-0" id="faq">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">FAQ</h2>
+	<!--	
+	<span class="glyphicon glyphicon-envelope"></span>
+        <hr class="star-light mb-5">
+	-->
+		<div class="container">
+    <br />
+    
+    <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <center>This section contains information, related to <strong>Dispute Lawyers</strong> If you cannot find an answer to your question, 
+        please make sure to contact us.</center>
+    </div>
+
+	 <!-- beginning of FAQ all new content below -->
+
+<!--
+	
+<div id="accordion">
+	
+  <div class="card">
+	-->
+	<style>
+	.card-body{
+	color: white;
+    	}
+	</style>
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Q: What is a dispute?
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      
+	<div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+ 
+<!--
+  <div class="card">
+-->
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Q: I have a dispute. What can i do?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  
+<!--
+  <div class="card">
+-->
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Q: What can you do?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+
+
+ <!-- End of FAQ Section (keep two tags below-->
+		</div>
+	</section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+         <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+	<div class="container">
+
+	<div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <center>We will respond to your contact email within <strong>24 hours</strong>.</center>
+	<center>We will contact you and discuss your dispute.</center> 
+	<center>This is a <strong>free</strong> intial call.</center>
+    </div>
+
+      <form method="post">
+
+        {% csrf_token %}
+
+	{{ form.name }}
+	<br>
+	{{ form.phone }}
+	<br>
+	{{ form.from_email }}
+	<br>
+	{{ form.subject}}       
+	<br>
+	{{ form.message }}
+
+
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+               
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4"></h4>
+            <p class="lead mb-0">
+              <br></p>
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4"></h4>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-google-plus"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-dribbble"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4"></h4>
+            <p class="lead mb-0">
+              <a href=""></a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; Dispute Lawyers 2018 | site designed: create247</small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Land and Property Disputes</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
+              <p class="mb-5">Land disputes can take many forms, from disputes over rights of way, boundaries, professional negligence (should a dispute arise through a surveyor or solicitor), nuisance and building disputes.<br>
+
+Whether your neighbour has put a fence up on your land, or has allowed conifers to grow too large, whether you find ramblers in your garden (and your Solicitor failed to tell you of the right of way), anything that intrudes on our personal space causes distress and is often a stressful situation. Our homes are the one place we should feel peaceful within.
+
+We understand the pressure of having a dispute that involves your home. We have a proven track record in dispute resolution as well as in court proceedings and will guide you through the complexities of the law and clearly set out your options so that you can make an informed decision as to the steps you want to take.
+
+We believe in transparency of fees and offer fixed-fee services so that you are never surprised at the charges. We understand that it is your home and your money and we ensure that we work closely with our clients to secure the outcome that they desire. </p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Inheritance disputes</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
+              <p class="mb-5">When someone dies it is often a very stressful time for all concerned.  Unfortunately, it is also quite common for legal disputes to arise, when the deceased’s affairs are attended to. Fortunately, we are specialist's expertise in Inheritance Dispute law.  If a dispute arises, we will ensure you understand the full extent of your rights, and act for you to achieve your best possible outcome.
+
+An Inheritance Dispute may arise in the following circumstances:
+
+A family member or someone close to the family feels disappointed by being excluded from the will, or by the amount that has been left to them.
+There are grounds to suspect the will is not valid. For example, there may be uncertainty as to whether the deceased had
+understood the will
+lacked capacity
+been heavily influenced by someone else, when making to make the will
+The effect of the will may be unclear and there may be disagreement over its interpretation
+The deceased had promised part of their estate to someone but this promise was not reflected in the Will
+The Will contains mistakes made by the solicitor or will writer
+An executor, personal representative or trustee has mismanaged the estate including any trusts
+The deceased’s property and monies were mishandled before they died, perhaps by the misconduct of someone granted with power of attorney.
+Our specialist lawyers have successfully pursued and defended cases for clients, over many years.  Their clients have included high net worth individuals with valuable business and property interests. 
+
+We also offers a range of options to fund your legal costs, including ‘No Win, No Fee’ agreements.
+
+Above all, your lawyer will work closely with you, one-on-one, to the resolution of your case, to ensure that you receive a personalised service.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Building and Construction Disputes</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
+              <p class="mb-5">Small and medium-sized businesses together with individuals are at the centre of the work we do. Our building disputes solicitors understand the disruption caused to households and businesses when building works go wrong. When a building project is not carried out on time or costs have started to spiral, it is important to remember that even where there is no formal contract, you are protected by law.
+
+Getting our team involved at an early stage of a building dispute can dramatically reduce the long-term consequences of construction work you are unhappy with.
+
+If you have entered a Joint Contracts Tribunal (JCT) agreement or any other type of building contract, our team's detailed knowledge of how the courts interpret these documents in practice means we have the confidence to comprehensively protect your position — whatever the nature of the dispute.
+
+Construction Mediation Lawyers
+Even if you have not signed a written contract with your builder, our practical experience means we can ensure that you are properly protected under general contract law. Where possible, we will encourage an early resolution of your dispute through negotiation. Our work includes the following:
+
+Complaints about builders — Including claims of poor workmanship, overcharging and failure by builders to complete a project on time. We work closely with clients to ensure that all aspects of their claim are incorporated in any settlement. This may include claiming for the cost of remedial works, refunds and trading losses.
+Arbitration — When building disagreements drag on, the cause of the initial complaint often becomes secondary to the ongoing costs and disruption associated with the dispute. Arbitration is an alternative method of resolving building disputes. Our team's wealth of experience in this field means we are alert to those cases that may be suitable for arbitration and can advise you accordingly.
+Building dispute mediation — Mediation is a form of structured negotiation. Where we think it is in your interest, we will proactively encourage you and your builder or contractor to enter into mediation. The procedure is both informal and cost-effective, and parties to mediation can walk away at any time. We will always ensure that any agreement you enter into protects you and is legally watertight.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Private Debt Enforcement and Contract Issues</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
+              <p class="mb-5">If you are owed a sum of money, or someone claims that you owe them money, you may need to seek advice regarding your rights.
+
+We can advise when there is a written agreement in place, and even when there is not.  Either way, we will try to help you achieve the best possible outcome.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Professional Negligence</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
+              <p class="mb-5">Professional advice costs money, so you should be able to rely on it. When guidance is given by a professional that does not meet the required standard of care, the process of putting things right is time-consuming and expensive. It can also have wide-ranging consequences.
+
+Our professional negligence solicitors have an impressive track record in robustly pursuing compensation claims for the effects of inadequate professional advice.
+
+Dispute Lawyers: Pursuing Negligence Claims Against Solicitors And Barristers
+This is a complex area of law. Usually the professional against whom a claim for negligence is brought will have the weight of a powerful insurance company behind them. They will be represented by a large law firm and will often have the support of a respected professional body. This means a specialist solicitor — one who is familiar with the standards that apply in the particular industry the disputed advice relates to — is of critical importance.
+
+</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Landlord and Tenant Disputes</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+              <p class="mb-5">We specialise in acting for landlords who find themselves in dispute with tenants.  Disputes can arise when rent goes unpaid, disrepair is caused to the landlord’s property, and an agreement cannot be reached about when a tenant should leave a property. 
+
+In these circumstances, and many others, we can help landlords achieve the best possible outcome, whether that means recovering possession of property or unpaid rent.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  {% endblock body %}
+
