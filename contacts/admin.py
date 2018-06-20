@@ -5,7 +5,7 @@ from .models import Contacts
 
 class ContactsAdmin(admin.ModelAdmin):
 	list_display = ('name', 'phone', 'from_email', 'subject', 'added')
-	list_display_links = ('name')
+	#list_display_links = ('name')
 	search_fields = ('name', 'from_email')
 	list_per_page = 25
 
