@@ -29,7 +29,7 @@ SECRET_KEY = '#+1lhblqnw@8qy*m#8per6ku^e%ep8=smsn*91$x*^k#-#%&u)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost:8000','127.0.0.1:8000','.disputelawyers.london','206.189.27.154']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','.disputelawyers.london','206.189.27.154']
 
 
 # Application definition
