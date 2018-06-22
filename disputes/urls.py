@@ -21,6 +21,7 @@ from .import views
 urlpatterns = [
 #    path('', include('blog.urls')),
     path('', include('about.urls')),
+    path('', include('blog.urls')),
     path('', include('contacts.urls')),
     path('', include('expertise.urls')),
     path('', include('faq.urls')),

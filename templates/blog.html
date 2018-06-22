@@ -1,19 +1,10 @@
-{% extends 'base.html' %}
-
-{% block content %}
-    <h1>Blog List</h1>
-
-    {% if post_list %}
-    <ul>
-
-      {% for post in blog %}
-      <li>
-        <a href="{{ post.get_absolute_url }}">{{ post.title }}</a> ({{post.author}})
-      </li>
-      {% endfor %}
-
-    </ul>
-    {% else %}
-      <p>There are no books in the library.</p>
-    {% endif %}       
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Blog
+</body>
+</html>
