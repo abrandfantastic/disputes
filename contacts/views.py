@@ -36,5 +36,10 @@ def contact(request):
 
     return render(request, "contact.html", {'form': form})
 
+"""
 def success(request):
     return HttpResponse('Success, Thanks')
+"""
+
+def success(request):
+    return render(request, "contact_success.html")

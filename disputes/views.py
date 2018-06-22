@@ -28,6 +28,11 @@ def index(request):
 
     return render(request, "index.html", {'form': form})
 
+
+"""
 def success(request):
     return HttpResponse('Success, Thanks')
+"""
 
+def success(request):
+    return render(request, "contact_success.html")
