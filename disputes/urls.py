@@ -20,6 +20,10 @@ from .import views
 
 urlpatterns = [
 #    path('', include('blog.urls')),
+    path('', include('about.urls')),
+    path('', include('contacts.urls')),
+    path('', include('expertise.urls')),
+    path('', include('faq.urls')),
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('success', views.success, name='success'),
