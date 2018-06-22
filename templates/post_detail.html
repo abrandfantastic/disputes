@@ -4,19 +4,24 @@
 {% include 'nav.html' %}
 
 <!-- About Section -->
-    <section class="bg-white text-white mb-0">
+    <section class="bg-white mb-0">
       <div class="container">
       <p>
         <p>
-        <h2 class="text-center text-uppercase text-white"></h2>
+        <h3 class="text-center text-uppercase"></h3>
 
-            {% for post in object_list %}
+    <div class="post">
+        {% if post.published_date %}
+            <div class="date">
+                {{ post.published_date }}
+            </div>
+        {% endif %}
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
 
-       <h3><a href="{% url 'post_detail' post.pk %}"> {{ post.title }}</a></h3>
 
-
-    {% endfor %}
-        <div class="row">
+          <div class="row">
           <div class="col-lg-4 ml-auto">
             <p class="lead"></p>
           </div>
