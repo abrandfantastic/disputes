@@ -22,8 +22,6 @@ from blog.sitemaps import blogViewSitemap
 from faq.sitemaps import faqViewSitemap
 from disputes.sitemaps import disputesViewSitemap
 from expertise.sitemaps import expertiseViewSitemap
-from django.views.generic import TemplateView
-
 
 sitemaps = {
     'about': aboutViewSitemap,
@@ -45,7 +43,6 @@ urlpatterns = [
     path('', include('expertise.urls')),
     path('', include('faq.urls')),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}),
-    path('robots.txt', TemplateView.as_view(template_name="disputes/robots.txt", content_type='text/plain')),
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('success', views.success, name='success'),
