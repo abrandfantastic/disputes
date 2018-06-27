@@ -23,7 +23,7 @@ from faq.sitemaps import faqViewSitemap
 from disputes.sitemaps import disputesViewSitemap
 from expertise.sitemaps import expertiseViewSitemap
 from django.views.generic import TemplateView
-
+from .import views
 
 sitemaps = {
     'about': aboutViewSitemap,
@@ -35,7 +35,7 @@ sitemaps = {
 
 }
 
-from .import views
+
 
 urlpatterns = [
 
