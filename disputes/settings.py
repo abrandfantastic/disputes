@@ -42,9 +42,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sitemaps',
+    'ckeditor',
     'contacts',
     'disputes',
     'blog',
+
 ]
 
 MIDDLEWARE = [
@@ -151,3 +153,5 @@ DEFAULT_FROM_EMAIL = "cryptojack247@gmail.com"
 
 
 SITE_URL = 'disputelawyers.london'
+
+#CKEDITOR_JQUERY_URL = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'
