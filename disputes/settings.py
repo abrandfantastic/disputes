@@ -29,7 +29,7 @@ SECRET_KEY = '#+1lhblqnw@8qy*m#8per6ku^e%ep8=smsn*91$x*^k#-#%&u)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','disputelawyers.london', 'www.disputelawyers.london','206.189.27.154']
+ALLOWED_HOSTS = ['disputelawyers.london', 'www.disputelawyers.london','206.189.27.154','localhost','127.0.0.1',]
 
 
 # Application definition
@@ -154,4 +154,5 @@ DEFAULT_FROM_EMAIL = "cryptojack247@gmail.com"
 
 SITE_URL = 'disputelawyers.london'
 
-#CKEDITOR_JQUERY_URL = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'
+CKEDITOR_JQUERY_URL = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'
+
