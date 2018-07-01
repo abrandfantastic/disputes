@@ -39,6 +39,7 @@ sitemaps = {
 
 urlpatterns = [
 
+    path('', views.index, name='index'),
     path('', include('about.urls')),
     path('', include('blog.urls')),
     path('', include('contacts.urls')),
@@ -47,6 +48,5 @@ urlpatterns = [
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}),
     path('robots.txt', TemplateView.as_view(template_name="disputes/robots.txt", content_type='text/plain')),
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
     path('success', views.success, name='success'),
 ]
